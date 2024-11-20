@@ -29,7 +29,7 @@ def soma(x, y):
 soma(y=2, x=1)
 ```
 
-### Valores padrão para os parâmetros
+### Valores padrão
 - Ao definir uma função, os parâmetros podem ter valores padrão
 - Caso nenhum valor seja enviado ao parâmetro, o padrão será usado
 ```python
