@@ -40,4 +40,4 @@ def soma(x, y, z=None):
         print(x + y)
 soma(1, 2)
 ```
-- Nesse caso, o código foi atualizado para receber `z`, porém ele recebe um <br>valor padrão</br> `None` para poder realizar operações somente com `x` e `y`
+- Nesse caso, o código foi atualizado para receber `z`, porém ele recebe um **valor padrão** `None` para poder realizar operações somente com `x` e `y`
