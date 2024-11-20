@@ -45,7 +45,7 @@ soma(1, 2)
 ### Escopo de funções
 - O escopo é o local que o código pode atingir
 - Por exemplo, se um determinado código está dentro do escopo de uma função específica, não vai afetar o restante do código
-#### __Escopo global__: Escopo onde todo o código é alcançável
+##### __Escopo global__: Escopo onde todo o código é alcançável
 ```python
 x = 1
 def escopo:
@@ -53,7 +53,7 @@ def escopo:
 
 escopo()
 ```
-#### __Escopo local__: Escopo onde apenas nomes dentro do mesmo local podem ser alcançados
+##### __Escopo local__: Escopo onde apenas nomes dentro do mesmo local podem ser alcançados
 ```python
 def escopo:
     x = 1
