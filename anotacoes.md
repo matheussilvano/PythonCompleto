@@ -74,4 +74,5 @@ def funcao1():
     
 ```
 - Nesse caso, a variável `x` está no escopo do módulo, podendo ser acessada em qualquer lugar, a variável `y` pode ser acessada tanto na `funcao1` quanto na `funcao2` e a variável `z` só pode ser acessada no escopo da `funcao2`
+- Caso uma variável `x` seja declarada duas vezes em escopos separados, funcionarará como duas variáveis diferentes, possuindo um valor em cada escopo
 
