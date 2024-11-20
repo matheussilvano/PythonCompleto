@@ -121,10 +121,10 @@ print(soma)
 ```python
 numeros = 1, 2, 3, 4, 5
 print(numeros)
+# Nesse caso a saída será (1, 2, 3, 4, 5)
 ```
-- Nesse caso a saída será (1, 2, 3, 4, 5)
 ```python
 numeros = 1, 2, 3, 4, 5
 print(*numeros)
+# Já nesse caso a saída será 1, 2, 3, 4, 5
 ```
-- Já nesse caso a saída será 1, 2, 3, 4, 5
