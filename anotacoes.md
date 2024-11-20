@@ -13,11 +13,18 @@ saudacao("Mundo")
 ```
 
 ### Argumentos nomeados e não nomeados
-- Argumentos nomeados possuem nome e um sinal de igual `=`
 - Argumentos não nomeados (ou posicionais), ecebem apenas o argumento (valor)
 ```python
 def soma(x, y):
     print(x + y)
 
 soma(1, 2)
+```
+
+- Argumentos nomeados possuem nome e um sinal de igual `=`
+```python
+def soma(x, y):
+    print(x + y)
+
+soma(y=2, x=1)
 ```
