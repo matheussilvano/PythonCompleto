@@ -79,6 +79,6 @@ def funcao1():
 ```python
 def escopo():
     global x
-    x = 10
+    x = 10    # esse x funcionará fora do escopo da função
 ```
 
