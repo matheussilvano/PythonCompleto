@@ -45,21 +45,33 @@ soma(1, 2)
 ### Escopo de funções
 - O escopo é o local que o código pode atingir
 - Por exemplo, se um determinado código está dentro do escopo de uma função específica, não vai afetar o restante do código
-#### __Escopo global__: Escopo onde todo o código é alcançável
+#### Escopo global: Escopo onde todo o código é alcançável
 ```python
 x = 1
-def escopo:
+def escopo():
     print(x)
 
 escopo()
 ```
-#### __Escopo local__: Escopo onde apenas nomes dentro do mesmo local podem ser alcançados
+#### Escopo local: Escopo onde apenas nomes dentro do mesmo local podem ser alcançados
 ```python
-def escopo:
+def escopo():
     x = 1
     print(x)
 
 escopo()
 ```
-    - A variável `x` existe apenas dentro do escopo da função `escopo`, caso eu tente acessar `x` fora da função, terei o retorno: `x is not defined`
+- A variável `x` existe apenas dentro do escopo da função `escopo`, caso eu tente acessar `x` fora da função, terei o retorno: `x is not defined`
+
+```python
+x = 1
+def funcao1():
+    y = 2
+    print(y)
+    def funcao2():
+        z = 3
+        print(z)
+    
+```
+- Nesse caso, a variável `x` está no escopo do módulo, podendo ser acessada em qualquer lugar, a variável `y` pode ser acessada tanto na `funcao1` quanto na `funcao2` e a variável `z` só pode ser acessada no escopo da `funcao2`
 
