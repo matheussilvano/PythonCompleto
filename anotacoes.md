@@ -82,3 +82,18 @@ def escopo():
     x = 10    # esse x funcionará fora do escopo da função
 ```
 
+### Return
+- Caso não haja um `return`, a variável retornará `none` por padrão
+- Exemplo de função com retorno:
+```python
+def soma(x, y):
+    return x + y
+
+soma1 = soma(2, 2)
+soma2 = soma(3, 3)
+print(soma1 + soma2)
+```
+- Caso não fosse usado o `return`, o Python tentaria somar `none` + `none`, o que acarretaria em um erro
+- Não se pode colocar nada em uma função após o `return`, pois será um código **inalcansável**
+
+### \*args
