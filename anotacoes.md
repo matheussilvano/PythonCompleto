@@ -117,3 +117,14 @@ def soma(*args):
 soma = soma(1, 2, 3)
 print(soma)
 ```
+- O \* é utilizado para desempacotamento de uma tupla, por exemplo:
+```python
+numeros = 1, 2, 3, 4, 5
+print(numeros)
+```
+- Nesse caso a saída será (1, 2, 3, 4, 5)
+```python
+numeros = 1, 2, 3, 4, 5
+print(*numeros)
+```
+- Já nesse caso a saída será 1, 2, 3, 4, 5
