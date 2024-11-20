@@ -96,4 +96,24 @@ print(soma1 + soma2)
 - Caso não fosse usado o `return`, o Python tentaria somar `none` + `none`, o que acarretaria em um erro
 - Não se pode colocar nada em uma função após o `return`, pois será um código **inalcansável**
 
-### \*args
+### Args
+- São argumentos não nomeados para uma função
+- É utilizado quando não há um número limite de argumentos à serem utilizados
+```python
+def soma(*args):
+    print(args)
+
+soma(1, 2, 3)
+```
+- No exemplo acima, indiferentemente de quantos argumentos forem adicionados, todos serão impressos como uma tupla
+- Para somas, a lógica dos `args` funciona um pouco diferente:
+```python
+def soma(*args):
+    total = 0
+    for numero in args:
+        total += numero
+    return total
+        
+soma = soma(1, 2, 3)
+print(soma)
+```
